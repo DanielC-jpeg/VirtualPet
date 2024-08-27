@@ -1,8 +1,8 @@
 
 void setup(){
-  //some of your code here
+  size(300,400);
 }
 void draw(){
-  //more of your code here
+  ellipse (150,170,130,60);
 }
 

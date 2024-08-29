@@ -29,6 +29,6 @@ void setup(){
   fill(146, 176, 14);
   triangle(100,265,60,265,100,290);
   triangle(200,265,215,290,240,265);
-println(mouseX + " : " + mouseY);
+
 }
 

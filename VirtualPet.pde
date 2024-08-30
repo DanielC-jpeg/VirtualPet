@@ -4,6 +4,11 @@ void setup(){
 }
 
 void draw(){
+  //body
+  fill(58, 235, 52);
+  triangle(150,200,100,265,200,265);
+  triangle(100,265,130,230,85,215);
+  triangle(200,265,175,230,215,215);
   noStroke();
   //shape of head
   fill(58, 235, 52);
@@ -22,11 +27,7 @@ void draw(){
   arc (150,160,80,60,0, PI);
   fill(255, 21, 0);
   ellipse (150,183,25,15);
-  //body
-  fill(58, 235, 52);
-  triangle(150,200,100,265,200,265);
-  triangle(100,265,130,230,85,215);
-  triangle(200,265,175,230,215,215);
+
   //legs 
   fill(146, 176, 14);
   triangle(100,265,60,265,100,290);

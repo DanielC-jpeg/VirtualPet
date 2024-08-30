@@ -2,6 +2,8 @@
 void setup(){
   size(300,400);
 }
+
+void draw(){
   noStroke();
   //shape of head
   fill(58, 235, 52);
